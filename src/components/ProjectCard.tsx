@@ -1,4 +1,4 @@
-const ProjectCard = ({ title, description }) => {
+const ProjectCard: React.FC<{ title: string; description: string }> = ({ title, description }) => {
     return (
       <div className="border border-gray-800 p-6 relative mb-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
         <h3 className="text-xl font-bold mb-4">{title}</h3>
